@@ -18,10 +18,25 @@ footer {
   }
 }
 
-@media (max-width: 1194px) {
+@media (max-width: 1250px) {
   footer {
     height: 50px;
     margin: -50px auto 0;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 615px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    height: 153px;
+    margin: -153px auto 0;
+    padding: 20px 0;
+
     font-size: 12px;
     line-height: 16px;
   }

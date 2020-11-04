@@ -55,7 +55,7 @@ menu a.current:hover {
   }
 }
 
-@media (max-width: 1194px) {
+@media (max-width: 1250px) {
   menu a {
     font-size: 12px;
     line-height: 16px;
@@ -65,5 +65,30 @@ menu a.current:hover {
     width: 150px;
     height: 14px;
     background-size: 150px 14px;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  menu a:first-child {
+    width: 180px;
+    height: 16px;
+    background-size: 180px 16px;
+  }
+}
+
+@media (max-width: 615px) {
+  menu div {
+    padding: 0 10px;
+  }
+
+  menu a {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  menu a:first-child {
+    width: 160px;
+    height: 14px;
+    background-size: 160px 14px;
   }
 }
