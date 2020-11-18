@@ -27,17 +27,20 @@ footer {
   }
 }
 
-@media (max-width: 615px) {
+@media (max-width: 767px) and (orientation: portrait) {
   footer {
-    display: flex;
     flex-direction: column;
-    justify-content: space-around;
-
+    justify-content: center;
     height: 153px;
     margin: -153px auto 0;
-    padding: 20px 0;
+    padding: 30px 0 32px;
+  }
 
-    font-size: 12px;
-    line-height: 16px;
+  footer > div:first-child {
+    margin-bottom: 18px;
+  }
+
+  footer > div:last-child {
+    margin-top: 16px;
   }
 }
